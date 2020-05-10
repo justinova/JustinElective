@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!-- Web Map created by Justin Chang -->
+<!-- Map created on February 5, 2020 -->
+<!-- Map modified on February 27,2020 -->
+<html>
+<head>
+
+<!-- browser tab title -->
+<title>Halifax Regional Municipality Boat Facilities </title>
+<link rel="stylesheet" href="css/leaflet.css" type="text/css">
+<link rel="stylesheet" href="css/MarkerCluster.css" type="text/css">
+<link rel="stylesheet" href="css/MarkerCluster.Justin.css" type="text/css">
+<link rel="stylesheet" href="css/L.Control.BetterScale.css" type="text/css">
+<link rel="stylesheet" href="dist/leaflet-control-boxzoom.css">
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<link rel="stylesheet" href="css/L.Control.Sidebar.css" />
+<link rel="stylesheet" href="css/L.Control.MousePosition.css" />
+<link rel="stylesheet" href="css/leaflet-legend.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/style.css">
+<!-- google font reference could go here but we will use import in style.css -->
+<!-- load project stylesheets link href to leaflet.css, style.css, google fonts -->
+
+
+
+</head>
+<meta charset="utf-8">
+<body>
+
+<nav class="navbar navbar-expand-md bg-info navbar-light">
+  <div style="margin-left:50px" ><a class="navbar-brand"><h4><b>Justin's Portfolio</b></h4></a></div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="../index.html">HOME</a>
+        <li class="nav-item">
+          <a class="nav-link" href="../portfolio.html">PORTFOLIO</a>
+        </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../cv.html">SKILLS & CAPABILITIES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../edtech.html">EDTECH</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../aboutme.html">ABOUT JUSTIN</a>
+      </li>
+    </ul>
+  </div>
+  </nav>
+
+
+
+<!-- Create a div for your map. Stylize by #id (#map) in stylesheet -->
+
+<div class = "container">
+  <h4><b>Boat Facilities in Halifax Regional Municipality</b></h4>
+  <div class = "row">
+    <div class = "column" >
+      <div id="map" ></div>
+    </div>
+
+    <div class = "column-2" ><p><h6>For this map, a map of boat facilities in Halifax Regional Municipality, Nova Scotia, Canada were mapped using open data from
+    <a href="http://catalogue-hrm.opendata.arcgis.com" target="_blank">Halifax Open Data Portal</a>. The data was downloaded as a shapefile then it was converted to a GeoJSON file using QGIS. Using the Atom text editor, the Geojson file was converted to JavaScript file. Then the basis of the web map was made customizing the basic template provided by <a href="https://leafletjs.com/" target="_blank">Leaflet</a>. Markers, marker clusters, scale, mouse position control and legend were added to the map. Markers were created/edited using Adobe Illustrator and “if” statement was used to show different attributes on a map. As the original data regarding the attributes(Boat Dock, Boat Launch and Wharf) were strings, each form of boat facility was given a coded value to execute the “if” statement in JavaScript.
+    Also in the process, a basemap with multiple basemap layers were created to toggle between different basemap layers.</h6></p>
+   </div>
+ </div>
+ <div><footer><h6>&copy; 2020 Justin Chang</h6></footer></div>
+</div>
+
+<!-- Load scripts. The order in which you load scripts matters. Load any necessary JQuery scripts first. Code is much cleaner if scripts kept as .js in js folder within project. script src -->
+<!-- <script src="js/parks.js" charset="utf-8"></script>
+<script src="js/poi.js" charset="utf-8"></script> -->
+<script src="js/hrmboat2.js" charset="utf-8"></script>
+<script src="js/leaflet.js" charset="utf-8"></script>
+<script src="js/leaflet-providers.js" charset="utf-8"></script>
+<script src="js/leaflet.markercluster.js" charset="utf-8"></script>
+<script src="js/leaflet.markercluster-src.js" charset="utf-8"></script>
+<script src="js/L.Control.BetterScale.js" charset="utf-8"></script>
+<script src="js/leaflet-control-boxzoom.js" charset="utf-8"></script>
+<script src="js/L.Control.MousePosition.js" charset="utf-8"></script>
+<script src="js/leaflet-legend.js" charset="utf-8"></script>
+<script src="js/script.js" charset="utf-8"></script>
+
+</body>
+<!-- <div>
+  <footer>&copy; 2020 Justin Chang</footer>
+  <br>
+</div> -->
+</html>

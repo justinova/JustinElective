@@ -1,0 +1,63 @@
+/*CSS for GeoJSON Rules Demo*/
+
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Noto+Serif:ital@1&display=swap');
+
+h1,h2,h3 {
+  /* font-family: 'Acme', sans-serif; */
+  font-family: 'Fira Sans', sans-serif;
+}
+
+h4,h5,h6 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+h4 {
+  /* margin-left: 50px; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+#map{
+  width: 650px;
+  height: 600px;
+  margin-left: 5%;
+}
+
+
+.column {
+  float: left;
+  padding-right: 10%;
+  width: 50%;
+}
+
+.column-1 {
+  float: left;
+  padding-left: 10%;
+  width: 50%;
+}
+
+.column-2 {
+  margin-top: 10%;
+  float: left;
+  padding-left: 15%;
+  width: 50%;
+}
+
+
+footer {
+	left:5%;
+	bottom:0;
+	width: 100%;
+	text-align: left;
+  margin-left: 5px;
+}

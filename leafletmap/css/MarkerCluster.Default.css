@@ -1,0 +1,60 @@
+.marker-cluster-small {
+	background-color: rgba(141, 211, 199, 0.6);
+	}
+.marker-cluster-small div {
+	background-color: rgba(255, 255, 179, 0.6);
+	}
+
+.marker-cluster-medium {
+	background-color: rgba(190, 186, 218, 0.6);
+	}
+.marker-cluster-medium div {
+	background-color: rgba(251, 128, 114, 0.6);
+	}
+
+.marker-cluster-large {
+	background-color: rgba(128, 177, 211, 0.6);
+	}
+.marker-cluster-large div {
+	background-color: rgba(253, 180, 98, 0.6);
+	}
+
+	/* IE 6-8 fallback colors */
+.leaflet-oldie .marker-cluster-small {
+	background-color: rgb(179, 222, 105);
+	}
+.leaflet-oldie .marker-cluster-small div {
+	background-color: rgb(252, 205, 229);
+	}
+
+.leaflet-oldie .marker-cluster-medium {
+	background-color: rgb(217, 217, 217);
+	}
+.leaflet-oldie .marker-cluster-medium div {
+	background-color: rgb(188, 128, 189);
+	}
+
+.leaflet-oldie .marker-cluster-large {
+	background-color: rgb(204, 235, 197);
+	}
+.leaflet-oldie .marker-cluster-large div {
+	background-color: rgb(255, 237, 111);
+}
+
+.marker-cluster {
+	background-clip: padding-box;
+	border-radius: 20px;
+	}
+.marker-cluster div {
+	width: 30px;
+	height: 30px;
+	margin-left: 5px;
+	margin-top: 5px;
+
+	text-align: center;
+	border-radius: 15px;
+	font: 15px "Calibri", sans-serif ;
+	}
+.marker-cluster span {
+	line-height: 30px;
+	}
