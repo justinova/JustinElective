@@ -45,7 +45,7 @@
     <div class="row">
       <!-- Page title and COGS logo -->
     <div class ="column" style="margin-top:50px">
-    <h3 class="display-4">Portfolio Work</h3>
+    <h3 class="display-4">Sample Works </h3>
     </div>
     <div class ="column" style="margin-top:50px"><a href="https://www.nscc.ca/explorenscc/campuses/cogs/" target="_blank"><img src = "images/cogs.jpg"></a></div>
     </div>
@@ -58,7 +58,7 @@
     </div>
     <div class="card-body">
 
-      <img class="card-img-bottom" src="images/digby_basemap.jpg" alt="Card image cap" height = "300" width = "500">
+      <img class="card-img-bottom" src="images/digby_basemap.jpg" alt="Card image cap" height = "300" width = "600">
       <a href="https://drive.google.com/file/d/1nVV6U3d9AOwdRnGAU1hKf79jh7OgSXYU/view?usp=sharing" target="_blank" class="btn btn-info" style = "margin-top:20px">See Map</a>
       <br>
       <br>
@@ -84,105 +84,70 @@
     </div>
   </div>
 
-<!-- Card showcasing Web Mapping sample work -->
-  <div class ="card col-6" style="margin-top:20px">
-    <div class = "card-header">
-      <h4><b>Web Mapping</b></h4>
-    </div>
-    <div class="card-body">
-      <img class="card-img-bottom" src="images/leaflet.jpg" alt="Card image cap" height = "300" width = "500">
-      <a href="leafletmap/leaflet.html" target="_blank" class="btn btn-info" style = "margin-top:20px">See Map</a>
-      <br>
-      <br>
-      <h5><p><b>Objective</b></p></h5>
-      <h6><ul>
-        <li> Create a web map using HTML,CSS and JavaScript.</li>
-        <li> Use Leaflet to build the web map.</li>
-        <li> Use shape files and GeoJSON files.</li>
-      </ul><h6>
-      <h5><p><b>Equipment/Software</b></p></h5>
-      <h6><ul>
-        <li>QGIS</li>
-        <li>Leaflet</li>
-        <li>Atom text editor</li>
-        <li>Adobe Illustrator CC</li>
-      </ul></h6>
+  <!-- Card showcasing GIS sample work -->
+      <div class ="card col-6" style="margin-top:20px">
+        <div class = "card-header">
+          <h4><b>Geographic Information System (GIS)</b></h4>
+        </div>
+        <div class="card-body">
+          <img class="card-img-bottom" src="images/Lunenburg.JPG" alt="Card image cap" height = "300" width = "500">
+          <a href="https://drive.google.com/file/d/1f8XRXLIEpoCTo-VleYIn7_bwO67jt6ae/view?usp=sharing" target="_blank" class="btn btn-info" style = "margin-top:20px">See Map</a>
+          <br>
+          <br>
+          <h5><p><b>Objective</b></p></h5>
+          <h6><ul>
+            <li>Create a topographic map of Lunenburg and Bridgewater using hillshades.</li>
+            <li>Symbolize and annotate the map using cartographic principles.</li>
+          </ul><h6>
+          <h5><p><b>Equipment/Software</b></p></h5>
+          <h6><ul>
+            <li>Esri ArcGIS Pro 2.2.4</li>
+          </ul></h6>
 
-      <h5><p><b>Process</b></p></h5>
-      <h6><p>For this map, a map of boat facilities in Halifax Regional Municipality, Nova Scotia, Canada were mapped using open data from
-      <a href="http://catalogue-hrm.opendata.arcgis.com" target="_blank">Halifax Open Data Portal</a>. The data was downloaded as a shapefile
-      then it was converted to a GeoJSON file using QGIS. Using the Atom text editor, the Geojson file was converted to JavaScript file. Then
-      the basis of the web map was made customizing the basic template provided by <a href="https://leafletjs.com/" target="_blank">Leaflet</a>.
-      Markers, marker clusters, scale, mouse position control and legend were added to the map. Markers were created/edited using Adobe Illustrator
-      and “if” statement was used to show different attributes on a map. As the original data regarding the attributes(Boat Dock, Boat Launch and
-      Wharf) were strings, each form of boat facility was given a coded value to execute the “if” statement in JavaScript.
-      Also in the process, a basemap with multiple basemap layers were created to toggle between different basemap layers. </p></h6>
+          <h5><p><b>Process</b></p></h5>
+          <h6><p>Base source for the study area of Lunenburg was downloaded from the Nova Scotia Topographic Database(NSTDB).
+            The key map source was a custom theme layer compliments of the Nova Scotia Geomatics Centre (NSGC) Service Nova Scotia and
+            Municipal Relations.The map data of the study area was clipped and merged to the dimensions of the study area.
+            The study area was then symbolized using cartographic principles. For the annotation of the map, GeoNames from the province
+            of Nova Scotia was used to label the features using the Esri Standard label engine and was later annotated and edited.
+            Furthermore, forested polygon feature class was created using Nova Scotia Department of Natural Resources Forest inventory database. </p></h6>
+        </div>
 
-    </div>
+      </div>
 
-  </div>
-
-<!-- Card showcasing AutoCAD sample work -->
+<!-- Card showcasing statistics map sample work -->
     <div class ="card col-6" style="margin-top:20px">
       <div class = "card-header">
-        <h4><b>Computer-aided design (CAD)</b></h4>
+        <h4><b>Cartography</b></h4>
       </div>
       <div class="card-body">
-        <img class="card-img-bottom" src="images/cad1.jpg" alt="Card image cap" height = "300" width = "500">
-        <a href="https://drive.google.com/file/d/19N9MFoixX4EQ4sgBzYXHDCfiUo09z7Qk/view?usp=sharing" target="_blank" class="btn btn-info" style = "margin-top:20px">See Map</a>
+        <img class="card-img-bottom" src="images/pyramid.jpg" alt="Card image cap" height = "300" width = "600">
+        <a href="https://drive.google.com/file/d/1vx03yNhaMdEBmTMzMxIm-F9cUhCAwFKA/view?usp=sharing" target="_blank" class="btn btn-info" style = "margin-top:20px">See Map</a>
         <br>
         <br>
         <h5><p><b>Objective</b></p></h5>
         <h6><ul>
-          <li>Create a road alignment of a given area using AutoCAD Civil 3D.</li>
-          <li>Create a table to show radius, length and line/chord direction.</li>
+          <li>Create statistical maps using Population Pyramids.</li>
         </ul><h6>
         <h5><p><b>Equipment/Software</b></p></h5>
         <h6><ul>
-          <li>Autodesk AutoCAD Civil 3D</li>
+          <li>Adobe Illustrator CC</li>
+          <li>Adobe InDesign CC</li>
+          <li>Adobe Photoshop CC</li>
+          <li>Esri ArcMap 10.6</li>
+          <li>Microsoft Excel</li>
         </ul></h6>
 
         <h5><p><b>Process</b></p></h5>
-        <h6><p>A surface was created so the point files could be attached. Then surface properties were changed to visualize the best areas to place an access
-        road that could be accessed from Delusion Road. A Polyline was placed so that the alignment could be created using the polyline. Labels were Created
-        to annotate the road alignments. Upon finishing the labeling, a table was created to show radius, length and line/chord direction.</p></h6>
-
+        <h6><p>Boundary files of Nova Scotia counties were downloaded and edited to create basemap of Nova Scotia using the statistics Canada Boundary Shapefiles.
+          Esri ArcMap was used to edit the shapefiles while Adobe Illustrator was used to design and create the details of each map. For the Population Pyramid, 2016 statistics Canada
+          Census Profile was downloaded and edited using Microsoft Excel. Then a Population Pyramid for each county was created to form a Population Pyramid Map of Nova Scotia.</p></h6>
       </div>
-
-    </div>
-<!-- Card showcasing AutoCAD sample work -->
-    <div class ="card col-6" style="margin-top:20px">
-      <div class = "card-header">
-        <h4><b>Computer-aided design (CAD)</b></h4>
-      </div>
-      <div class="card-body">
-        <img class="card-img-bottom" src="images/cad2.jpg" alt="Card image cap" height = "300" width = "500">
-        <a href="https://drive.google.com/file/d/1x60FJafg9DgOf6wvl8aM6AeqoD6i4ub3/view?usp=sharing" target="_blank" class="btn btn-info" style = "margin-top:20px">See Map</a>
-        <br>
-        <br>
-        <h5><p><b>Objective</b></p></h5>
-        <h6><ul>
-          <li> Create a parcel using AutoCAD Civil 3D. </li>
-          <li> Use Parcel Creation Tools to subdivide parcels.</li>
-          <li> Label lot lines and add iron pins to lots.</li>
-        </ul><h6>
-        <h5><p><b>Equipment/Software</b></p></h5>
-        <h6><ul>
-          <li>Autodesk AutoCAD Civil 3D</li>
-        </ul></h6>
-
-        <h5><p><b>Process</b></p></h5>
-        <h6><p>A parcel was made using the provided AOI file. After a stream alignment was created, a ROW parcel was created along the stream.
-        Parcels were then subdivided using the Parcel Creation Tools, which was then subdivided into single family lots using the specification of
-        Kings County. Lot lines were then labelled and iron pins were added to the lots. </p></h6>
-
-      </div>
-
     </div>
     <!-- Card showcasing Thematic Mapping sample work -->
         <div class ="card col-6" style="margin-top:20px">
           <div class = "card-header">
-            <h4><b>Thematic Mapping</b></h4>
+            <h4><b>Cartography</b></h4>
           </div>
           <div class="card-body">
             <img class="card-img-bottom" src="images/ThematicMap.jpg" alt="Card image cap" height = "300" width = "500">
@@ -212,49 +177,75 @@
               map poster project. Colours of each NHL teams were applied to the charts and was used to depict the dominance of teams in each provice area
               used for the map. Upon completing each small map, the maps were then edited for the final time on Adobe InDesign for print. Logos of NHL
               teams as well as text explaining the rich history of Canadian NHL teams was explained. </p></h6>
-
           </div>
-
-        </div>
-    <!-- Card showcasing Geodesys and Mapping sample work -->
-        <div class ="card col-6" style="margin-top:20px">
-          <div class = "card-header">
-            <h4><b>Geodesys and Mapping</b></h4>
-          </div>
-          <div class="card-body">
-            <img class="card-img-bottom" src="images/gnss.JPG" alt="Card image cap" height = "300" width = "500">
-            <a href="https://drive.google.com/file/d/1ogYJtIxtULKEXlbVEZiRYDkMFtUONOum/view?usp=sharing" target="_blank" class="btn btn-info" style = "margin-top:20px">See Map</a>
-            <br>
-            <br>
-            <h5><p><b>Objective</b></p></h5>
-            <h6><ul>
-              <li> Collect feature data using GPS pseudo-range observations.</li>
-              <li>Create and utilize data dictionary to collect feature data.</li>
-              <li>Create map using collected data</li>
-            </ul><h6>
-            <h5><p><b>Equipment/Software</b></p></h5>
-            <h6><ul>
-              <li>Trimble Juno handheld unit.</li>
-              <li>Trimble Pathfinder Office version 5.9</li>
-              <li>Esri ArcMap 10.6</li>
-            </ul></h6>
-
-            <h5><p><b>Process</b></p></h5>
-            <h6><p>Feature data was collected using GPS pseudo-ranging observations around  COGS property. Using Trimble’s GNSS Planning utility,
-              satellite availability (cut off of 15°) and DOP positions were analyzed using Trimble’s GNSS Planning utility to search for the favorable
-              data collection time. Data was then collected using Trimble Juno handheld unit with satellite-based augmentation(SBAS). Nova Scotia Monuments
-              around the site was used to assess accuracy of the unit. Feature attribute was then collected using data dictionary created for the project.
-              Utilizing Canadian Active Control System (CACS) data from Lawrencetown base station, the collected data was corrected using Trimble Pathfinder
-              Office 5.9 software. The corrected data was then exported in Esri shape file in NAD83 CSRS/UTM Zone 20 projection. Upon manually editing the data
-              to correct geometry, the collected GNSS data was augmented with Nova Scotia property Records Database in Amherst, N.S. An arial photograph was
-              then used todigitize the features and made into a map using ArcMap 10.6 software. </p></h6>
-
-          </div>
-
         </div>
 
+        <!-- Card showcasing Web Mapping sample work -->
+          <div class ="card col-6" style="margin-top:20px">
+            <div class = "card-header">
+              <h4><b>Web Mapping</b></h4>
+            </div>
+            <div class="card-body">
+              <img class="card-img-bottom" src="images/leaflet.jpg" alt="Card image cap" height = "300" width = "600">
+              <a href="leafletmap/leaflet.html" target="_blank" class="btn btn-info" style = "margin-top:20px">See Map</a>
+              <br>
+              <br>
+              <h5><p><b>Objective</b></p></h5>
+              <h6><ul>
+                <li> Create a web map using HTML,CSS and JavaScript.</li>
+                <li> Use Leaflet to build the web map.</li>
+                <li> Use shape files and GeoJSON files.</li>
+              </ul><h6>
+              <h5><p><b>Equipment/Software</b></p></h5>
+              <h6><ul>
+                <li>QGIS</li>
+                <li>Leaflet</li>
+                <li>Atom text editor</li>
+                <li>Adobe Illustrator CC</li>
+              </ul></h6>
 
+              <h5><p><b>Process</b></p></h5>
+              <h6><p>For this map, a map of boat facilities in Halifax Regional Municipality, Nova Scotia, Canada were mapped using open data from
+              <a href="http://catalogue-hrm.opendata.arcgis.com" target="_blank">Halifax Open Data Portal</a>. The data was downloaded as a shapefile
+              then it was converted to a GeoJSON file using QGIS. Using the Atom text editor, the Geojson file was converted to JavaScript file. Then
+              the basis of the web map was made customizing the basic template provided by <a href="https://leafletjs.com/" target="_blank">Leaflet</a>.
+              Markers, marker clusters, scale, mouse position control and legend were added to the map. Markers were created/edited using Adobe Illustrator
+              and “if” statement was used to show different attributes on a map. As the original data regarding the attributes(Boat Dock, Boat Launch and
+              Wharf) were strings, each form of boat facility was given a coded value to execute the “if” statement in JavaScript.
+              Also in the process, a basemap with multiple basemap layers were created to toggle between different basemap layers. </p></h6>
 
+            </div>
+
+          </div>
+<!-- Card showcasing AutoCAD sample work -->
+    <div class ="card col-6" style="margin-top:20px">
+      <div class = "card-header">
+        <h4><b>Computer-aided design (CAD)</b></h4>
+      </div>
+      <div class="card-body">
+        <img class="card-img-bottom" src="images/cad2.jpg" alt="Card image cap" height = "300" width = "500">
+        <a href="https://drive.google.com/file/d/1x60FJafg9DgOf6wvl8aM6AeqoD6i4ub3/view?usp=sharing" target="_blank" class="btn btn-info" style = "margin-top:20px">See Map</a>
+        <br>
+        <br>
+        <h5><p><b>Objective</b></p></h5>
+        <h6><ul>
+          <li> Create a parcel using AutoCAD Civil 3D. </li>
+          <li> Use Parcel Creation Tools to subdivide parcels.</li>
+          <li> Label lot lines and add iron pins to lots.</li>
+        </ul><h6>
+        <h5><p><b>Equipment/Software</b></p></h5>
+        <h6><ul>
+          <li>Autodesk AutoCAD Civil 3D</li>
+        </ul></h6>
+
+        <h5><p><b>Process</b></p></h5>
+        <h6><p>A parcel was made using the provided AOI file. After a stream alignment was created, a ROW parcel was created along the stream.
+        Parcels were then subdivided using the Parcel Creation Tools, which was then subdivided into single family lots using the specification of
+        Kings County. Lot lines were then labelled and iron pins were added to the lots. </p></h6>
+
+      </div>
+
+    </div>
 
 
 
